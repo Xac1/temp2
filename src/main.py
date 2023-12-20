@@ -2,9 +2,13 @@ from shop import PetShop
 import sys
 
 
-host = sys.argv[1]
-user = sys.argv[2]
-password = sys.argv[3]
+#host = sys.argv[1]
+#user = sys.argv[2]
+#password = sys.argv[3]
+
+host = "mysql"
+user = "user"
+password = "pw"
 
 petshop = PetShop(host, user, password)
 petshop.create_shop()
