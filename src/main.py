@@ -7,8 +7,8 @@ import sys
 #password = sys.argv[3]
 
 host = "mysql"
-user = "user"
-password = "pw"
+user = "root"
+password = "qwerty1234"
 
 petshop = PetShop(host, user, password)
 petshop.create_shop()
