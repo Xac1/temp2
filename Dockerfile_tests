@@ -1,4 +1,4 @@
-FROM ghcr.io/romangrekov/testrepo:latest
+FROM ghcr.io/xac1/temp2:latest
 
 RUN pip3 install coverage
 
