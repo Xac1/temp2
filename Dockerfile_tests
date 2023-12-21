@@ -1,4 +1,4 @@
-FROM ghcr.io/xac1/temp2:latest
+FROM ghcr.io/xac1/lessons25-26:latest
 
 RUN pip3 install coverage
 
