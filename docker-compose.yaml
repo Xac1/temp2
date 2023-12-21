@@ -2,7 +2,7 @@ version: "3.9"
 services:
   app:
     tty: true
-    image: ghcr.io/xac1/lessons25-26:latest
+    image: ghcr.io/xac1/temp2:latest
     build:
       context: .
       dockerfile: Dockerfile
@@ -10,7 +10,7 @@ services:
   app-coverage:
     container_name: app-coverage
     tty: true
-    image: ghcr.io/xac1/lessons25-26:tests
+    image: ghcr.io/xac1/temp2:tests
     build:
       context: .
       dockerfile: Dockerfile_tests
