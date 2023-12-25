@@ -2,7 +2,7 @@ name: Build
 
 on: 
   push:
-    branches: [main1]
+    branches: [main]
 
 env:
   REGISTRY: ghcr.io
@@ -81,13 +81,13 @@ jobs:
         message: 'Add code coverage report'
         add: 'coverage'
         #pull: '-r'
-        new_branch: gh-pages
+        new_branch: gh-page
         push: true
 
     - name: Deploy to GitHub Pages
       uses: crazy-max/ghaction-github-pages@v4
       with:
-        target_branch: main
+        target_branch: main1
         build_dir: coverage
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
