@@ -80,8 +80,8 @@ jobs:
         author_email: xac_cs@ukr.net
         message: 'Add code coverage report'
         add: 'coverage'
-        #pull: '-r'
-        new_branch: gh-pages
+        pull: '-r'
+        #new_branch: gh-pages
         push: true
 
     - name: Deploy to GitHub Pages
