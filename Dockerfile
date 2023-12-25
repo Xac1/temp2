@@ -8,3 +8,5 @@ COPY src /workdir
 WORKDIR /workdir
 
 ENTRYPOINT [ "python3", "main.py" ]
+
+
